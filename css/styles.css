@@ -58,7 +58,7 @@ header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 1.13rem;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -412,14 +412,6 @@ footer {
 
 .footer-container {
     display: flex;
-    align-items: baseline;
-    /* gap: 120px; */
-}
-
-.footer-social-subscribe-wrapper {
-    margin-left: 120px;
-    width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -428,7 +420,7 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 1.13rem;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -444,6 +436,7 @@ footer {
 }
 
 .footer-social {
+    margin-left: 120px;
     max-width: 208px;
 }
 
@@ -482,6 +475,10 @@ footer {
 
 .footer-symbol {
     fill: #f4f4fd;
+}
+
+.footer-subscribe {
+    margin-left: auto;
 }
 
 .footer-subscribe-title {
@@ -523,8 +520,7 @@ footer {
 
 .footer-form-button {
     margin-left: 24px;
-    padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border: none;
     border-radius: 4px;
@@ -710,6 +706,10 @@ footer {
     border-color: #4d5ae5;
 }
 
+.modal-field-user-policy {
+    margin-top: 16px;
+}
+
 .modal-checkbox:checked + .modal-checkbox-label span {
     background-color: #404bbf;
     fill: #f4f4fd;
@@ -743,7 +743,7 @@ footer {
 }
 
 .modal-checkbox-label a {
-    line-height: 1.33333;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
@@ -753,8 +753,7 @@ footer {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
-    padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     display: block;
     border-radius: 4px;
